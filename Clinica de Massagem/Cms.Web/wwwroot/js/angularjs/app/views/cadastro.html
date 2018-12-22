@@ -1,0 +1,74 @@
+<div class="row"  ng-init="getCliente()">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Cadastro de Cliente</h4>
+            </div>
+            <div class="card-body">
+                <form  ng-submit="saveCliente()">
+                    <div class="row">
+                        <div class="col-md-4 pr-1">
+                            <div class="form-group">
+                                <label>Nome</label>
+                                <input type="text" class="form-control" ng-required="required" placeholder="Nome" ng-model="cliente.nome">
+                            </div>
+                        </div>
+                        <div class="col-md-4 px-1">
+                            <div class="form-group">
+                                <label>Sobrenome</label>
+                                <input type="text" class="form-control" placeholder="Sobrenome" ng-model="cliente.sobrenome">
+                            </div>
+                        </div>
+                        <div class="col-md-4 pl-1">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">CPF</label>
+                                <input type="text" class="form-control" ng-required="required"  maxlength="15" placeholder="CPF" ng-model="cliente.cpf">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 pr-1">
+                            <div class="form-group">
+                                <label>Telefone</label>
+                                <input type="text" class="form-control" placeholder="Telefone" maxlength="12" ng-model="cliente.telefone">
+                            </div>
+                        </div>
+                        <div class="col-md-6 pl-1">
+                            <div class="form-group">
+                                <label>Celular</label>
+                                <input type="text" class="form-control" ng-required="required"  maxlength="12" placeholder="Celular" ng-model="cliente.celular">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Endereço</label>
+                                <input type="text" class="form-control" ng-required="required" placeholder="Endereço" ng-model="cliente.endereco">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 pr-1">
+                            <div class="form-group">
+                                <label>Cidade</label>
+                                <input type="text" class="form-control" placeholder="Cidade" ng-model="cliente.cidade">
+                            </div>
+                        </div>
+                        <div class="col-md-4 pl-1">
+                            <div class="form-group">
+                                <label>Estado</label>
+                                <input type="text" class="form-control" placeholder="Estado" ng-model="cliente.estado">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button type="submit" ng-disabled="disable" class="btn btn-info btn-fill pull-right">Salvar</button>
+                    <div class="clearfix"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>

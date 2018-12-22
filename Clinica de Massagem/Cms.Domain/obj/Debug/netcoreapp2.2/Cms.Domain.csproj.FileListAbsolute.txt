@@ -1,0 +1,9 @@
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Domain\bin\Debug\netcoreapp2.2\Cms.Domain.deps.json
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Domain\bin\Debug\netcoreapp2.2\Cms.Domain.dll
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Domain\bin\Debug\netcoreapp2.2\Cms.Domain.pdb
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Domain\obj\Debug\netcoreapp2.2\Cms.Domain.csprojAssemblyReference.cache
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Domain\obj\Debug\netcoreapp2.2\Cms.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Domain\obj\Debug\netcoreapp2.2\Cms.Domain.AssemblyInfoInputs.cache
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Domain\obj\Debug\netcoreapp2.2\Cms.Domain.AssemblyInfo.cs
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Domain\obj\Debug\netcoreapp2.2\Cms.Domain.dll
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Domain\obj\Debug\netcoreapp2.2\Cms.Domain.pdb

@@ -1,0 +1,15 @@
+C:\Users\Jaelson\source\repos\JSolutions\Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\Jaelson\source\repos\JSolutions\Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\Jaelson\source\repos\JSolutions\Tests\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\Jaelson\source\repos\JSolutions\Tests\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+C:\Users\Jaelson\source\repos\JSolutions\Tests\bin\Debug\netcoreapp2.1\Tests.deps.json
+C:\Users\Jaelson\source\repos\JSolutions\Tests\bin\Debug\netcoreapp2.1\Tests.runtimeconfig.json
+C:\Users\Jaelson\source\repos\JSolutions\Tests\bin\Debug\netcoreapp2.1\Tests.runtimeconfig.dev.json
+C:\Users\Jaelson\source\repos\JSolutions\Tests\bin\Debug\netcoreapp2.1\Tests.dll
+C:\Users\Jaelson\source\repos\JSolutions\Tests\bin\Debug\netcoreapp2.1\Tests.pdb
+C:\Users\Jaelson\source\repos\JSolutions\Tests\obj\Debug\netcoreapp2.1\Tests.csprojAssemblyReference.cache
+C:\Users\Jaelson\source\repos\JSolutions\Tests\obj\Debug\netcoreapp2.1\Tests.csproj.CoreCompileInputs.cache
+C:\Users\Jaelson\source\repos\JSolutions\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfoInputs.cache
+C:\Users\Jaelson\source\repos\JSolutions\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfo.cs
+C:\Users\Jaelson\source\repos\JSolutions\Tests\obj\Debug\netcoreapp2.1\Tests.dll
+C:\Users\Jaelson\source\repos\JSolutions\Tests\obj\Debug\netcoreapp2.1\Tests.pdb

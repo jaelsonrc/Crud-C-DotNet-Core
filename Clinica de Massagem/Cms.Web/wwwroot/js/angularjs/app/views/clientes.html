@@ -1,0 +1,75 @@
+
+                    <div class="row"  ng-init="getClientes()">
+                        <div class="col-md-12">
+                            <div class="card strpied-tabled-with-hover">
+                                <div class="card-header ">
+                                    <h4 class="card-title">Lista de Clientes</h4>
+                                    <p class="card-category">Total Cadastrados: {{totalClientes}}</p>
+                                </div>                          
+                                <div class="card-body table-full-width table-responsive">
+                                    <div class="alert alert-danger" id="dangerALert" ng-show="alert">
+                                        <button type="button" aria-hidden="true" class="close" data-dismiss="alert">
+                                            <i class="nc-icon nc-simple-remove"></i>
+                                        </button>
+                                        <span>
+                                            {{message}}
+                                        </span>
+                                    </div>
+                                    <input type="text" class="form-control" ng-model="txtPesquisa" placeholder="Pesquisar..." />
+                                    <table class="table table-hover table-striped">
+                                        <thead>
+                                        <th>ID</th>
+                                        <th>Name Completo</th>
+                                        <th>CPF</th>
+                                        <th>Celular</th>
+                                        <th>Endereço</th>
+                                        <th>Ação</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr ng-repeat="row in clientes  | filter: txtPesquisa">
+                                                <td>{{ row.id }}</td>
+                                                <td>{{ row.nome }} {{row.sobrenome}}</td>
+                                                <td>{{ row.cpf }}</td>
+                                                <td>{{ row.celular }}</td>
+                                                <td>{{ row.endereco }}</td>
+                                                <td>
+                                                    <a href="#!clientes/cadastro/edit/{{row.id}}">
+                                                        <i class="material-icons">
+                                                            edit
+                                                        </i>
+
+                                                    </a> <a href="" ng-click="confirmaRemove(row.id)">
+                                                        <i class="material-icons">
+                                                            cancel
+                                                        </i>
+
+                                                    </a>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!---fim-->
+                </div>
+
+                
+                <!-- Mini Modal -->
+                <div class="modal fade modal-mini modal-primary" id="modalDelete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body text-center">
+                                <p>{{message}}</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button"  ng-click="removeCliente()" class="btn btn-link btn-simple">Sim</button>
+                                <button type="button" class="btn btn-link btn-simple" data-dismiss="modal">Não</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>

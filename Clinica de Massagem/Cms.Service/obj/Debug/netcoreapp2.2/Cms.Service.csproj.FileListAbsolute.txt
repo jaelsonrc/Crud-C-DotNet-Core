@@ -1,0 +1,14 @@
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Service\bin\Debug\netcoreapp2.2\Cms.Service.deps.json
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Service\bin\Debug\netcoreapp2.2\Cms.Service.dll
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Service\bin\Debug\netcoreapp2.2\Cms.Service.pdb
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Service\bin\Debug\netcoreapp2.2\Cms.Domain.dll
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Service\bin\Debug\netcoreapp2.2\Cms.Infrastructure.dll
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Service\bin\Debug\netcoreapp2.2\Cms.Domain.pdb
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Service\bin\Debug\netcoreapp2.2\Cms.Infrastructure.pdb
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Service\obj\Debug\netcoreapp2.2\Cms.Service.csprojAssemblyReference.cache
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Service\obj\Debug\netcoreapp2.2\Cms.Service.csproj.CoreCompileInputs.cache
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Service\obj\Debug\netcoreapp2.2\Cms.Service.AssemblyInfoInputs.cache
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Service\obj\Debug\netcoreapp2.2\Cms.Service.AssemblyInfo.cs
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Service\obj\Debug\netcoreapp2.2\Cms.Service.csproj.CopyComplete
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Service\obj\Debug\netcoreapp2.2\Cms.Service.dll
+C:\Users\Jaelson\Documents\Codigos\Asp\7-Projeto Clinica de Massagem Net Core 2.2\JS\Cms.Service\obj\Debug\netcoreapp2.2\Cms.Service.pdb

@@ -1,0 +1,38 @@
+﻿<div class="sidebar" data-image="/images/sidebar-5.jpg">
+    <div class="sidebar-wrapper">
+        <div class="logo">
+            <a href="#" class="simple-text">
+                CMSolutions
+            </a>
+        </div>
+        <ul class="nav">
+            {{activetab}}
+            <li class="nav-item" ng-class="{active: activetab == '/'}">
+                <a class="nav-link" href="#!">
+                    <i class="nc-icon nc-chart-pie-35"></i>
+                    <p>Dashboard</p>
+                </a>
+            </li>
+
+            <li ng-class="{active: activetab == '/cadastro'}">
+                <a class="nav-link" href="#!clientes/cadastro/add">
+                    <i class="nc-icon nc-circle-09"></i>
+                    <p>Cadastrar Cliente</p>
+                </a>
+            </li>
+            <li ng-class="{active: activetab == '/#clientes'}">
+                <a class="nav-link" href="#!clientes">
+                    <i class="nc-icon nc-paper-2"></i>
+                    <p>Lista de Clientes</p>
+                </a>
+            </li>
+            <li ng-class="{active: activetab == '/agenda/add'}">
+                <a class="nav-link" href="#!agenda/add">
+                    <i class="nc-icon nc-notes"></i>
+                    <p>Agendar Massagem</p>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</div>
