@@ -1,4 +1,10 @@
-var app = angular.module('app', ['ngRoute', 'moment-picker']);
+
+
+
+
+var app = angular.module('app', ['ngRoute', 'moment-picker', 'ui.mask', 'brasil.filters']);
+
+
 
 app.config(function($routeProvider) {	    
 

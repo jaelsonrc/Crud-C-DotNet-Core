@@ -60,8 +60,7 @@ namespace Cms.Web
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env,
-               IServiceProvider serviceProvider,
-               ILoggerFactory loggerFactor)
+               IServiceProvider serviceProvider)
         {
             if (env.IsDevelopment())
             {
@@ -73,7 +72,7 @@ namespace Cms.Web
                 app.UseHsts();
             }
 
-            loggerFactor.AddConsole().AddDebug();
+           
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();

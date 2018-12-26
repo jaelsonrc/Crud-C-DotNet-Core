@@ -30,36 +30,36 @@ namespace Cms.Service.Services
             _repositoryCliente.Incluir(new Cliente(){
                                                 Nome= "Amanda ",
                                                 Sobrenome = "Queiroz Silva",
-                                                CPF = "111.111.111-11",
+                                                CPF = "11111111111",
                                                 Endereco = "Rua padre joão cripa",
                                                 Cidade = "Campo Grande",
                                                 Estado = "MS",
-                                                Telefone = "67-3412-3453",
-                                                Celular = "67-99999-9999"
+                                                Telefone = "6734123453",
+                                                Celular = "67999999999"
                                                });
 
             _repositoryCliente.Incluir(new Cliente()
                                         {
                                             Nome = "Paulo ",
                                             Sobrenome = "Bezerro Pinto",
-                                            CPF = "222.111.222-11",
+                                            CPF = "22211122211",
                                             Endereco = "Rua afonso pena",
                                             Cidade = "Campo Grande",
                                             Estado = "MS",
-                                            Telefone = "67-3412-3453",
-                                            Celular = "67-99999-9999"
+                                            Telefone = "6734123453",
+                                            Celular = "67999999999"
                                         });
 
             _repositoryCliente.Incluir(new Cliente()
             {
                 Nome = "Carla ",
                 Sobrenome = "Bianca Silva",
-                CPF = "222.333.222-33",
+                CPF = "22233322233",
                 Endereco = "Rua jose antonio",
                 Cidade = "Campo Grande",
                 Estado = "MS",
-                Telefone = "67-3412-3453",
-                Celular = "99-99999-9999"
+                Telefone = "6734123453",
+                Celular = "99999999999"
             });
 
 

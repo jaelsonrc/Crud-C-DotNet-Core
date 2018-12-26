@@ -29,8 +29,8 @@
                                             <tr ng-repeat="row in clientes  | filter: txtPesquisa">
                                                 <td>{{ row.id }}</td>
                                                 <td>{{ row.nome }} {{row.sobrenome}}</td>
-                                                <td>{{ row.cpf }}</td>
-                                                <td>{{ row.celular }}</td>
+                                                <td>{{ row.cpf | cpf }}</td>
+                                                <td>{{ row.celular | tel }}</td>
                                                 <td>{{ row.endereco }}</td>
                                                 <td>
                                                     <a href="#!clientes/cadastro/edit/{{row.id}}">

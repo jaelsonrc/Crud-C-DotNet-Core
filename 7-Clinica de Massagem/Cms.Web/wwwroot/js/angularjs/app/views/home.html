@@ -3,7 +3,7 @@
 			<div class="card strpied-tabled-with-hover">
 					<div class="card-header ">
 							<h4 class="card-title">Lista de Agendamento</h4>
-							<p class="card-category">Total Agendado do Mes: {{totalAgenda}}</p>
+							<p class="card-category">Total Agendado: {{totalAgenda}}</p>
 					</div>
 					<div class="card-body table-full-width table-responsive">
 							<div class="alert alert-danger" id="dangerALert" ng-show="alert">
@@ -25,7 +25,7 @@
 									<tbody>
 											<tr  ng-repeat="row in agendamentos  | filter: txtPesquisa">									
                                                 <td>{{row.cliente.nome}} {{row.cliente.sobrenome}}</td>
-													<td>{{row.cliente.celular}}</td>
+													<td>{{row.cliente.celular | tel}}</td>
 													<td>{{row.data  | date:'dd/MM/yyyy HH:mm:ss' }}</td>
 													<td>{{row.modalidade == 30 ? '30 min': '1 hora'}}</td>
 													<td>

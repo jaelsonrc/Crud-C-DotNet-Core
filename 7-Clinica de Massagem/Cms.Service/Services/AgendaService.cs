@@ -40,7 +40,7 @@ namespace Cms.Service.Services
             DbSet<Agenda> query = repo.DbSet as DbSet<Agenda>;
            
            // IEnumerable<Agenda> query =__repository.Get;
-            List<Agenda> list = query.Include(c => c.Cliente).Where(w => w.Data.Month == DateTime.Now.Month).ToList();
+            List<Agenda> list = query.Include(c => c.Cliente).ToList();
    
             return list;
         }
